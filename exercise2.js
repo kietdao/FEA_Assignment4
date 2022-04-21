@@ -1,7 +1,7 @@
 // Viết function tìm ra phần tử xuất hiện không phải nhiều nhất cũng không phải ít nhất trong mảng
 // Ex: [1,2,3,1,2,1,1] => return [2]
 // Ex: [1,2,3,1,2, 7, 7, 1,1, 4,5] => return [2, 7]
-const elements = [1,2,3,1,2,1,1]
+const elements = [1,2,3,1,2, 7, 7, 1,1, 4,5]
 
 function countTimesElementsAppear(arr) {
     return arr.map((item) => {
